@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>OTAKU'S FORM</title>
+    <link rel="stylesheet" href="./styles.css" >
+  </head>
+  <body>
+  <h1 id="title">ANIME GEEK'S SURVEY FORM</h1>
+  <p id="description">Hello guys, this is a survey form for anime fans like me."Shinzou Wo Sasageyo"</p>
+  <form id="survey-form">
+    <fieldset>
+        <label id="name-label">Name: <input id="name" name="name" type="text"  placeholder="Enter your name" required /></label>
+        <label id="email-label">Enter Your Email: <input id="email" name="email" type="email"  placeholder="Enter your email" required /></label>
+    </fieldset>
+    <fieldset>
+        <label id="number-label">For how many years have you been watching anime:<input id="number" name="number" min=1 max=30 type="number"  placeholder="Experience" required/></label>
+        <label id="dropdown-label">Who is your favourite character?
+         <select id="dropdown">
+          <option value="">My favourite character</option>
+          <option value="1">GOKU</option>
+          <option value="2">VEGITA</option>
+          <option value="3">NARUTO</option>
+          <option value="4">SASUKE</option>
+          <option value="5">GIRAYA</option>
+          <option value="6">ITACHI</option>
+          <option value="7">MADARA</option>
+          <option value="8">PAIN</option>
+          <option value="9">GAARA</option>
+          <option value="10">SHIKAMARU</option>
+          <option value="11">ASUMA</option>
+          <option value="12">GOJO</option>
+          <option value="13">ITADORI</option>
+          <option value="14">SAITAMA</option>
+          <option value="15">GOJO</option>
+         </select>
+    </fieldset>
+    <fieldset>
+        </label>
+        <label id="reason to love anime">Why do you love to watch anime so much?</label>
+        <label id="radio-button 1">
+          <input id="action" type="radio" name="reason" value="action" class="inline"/>Action-sequence
+         </label>
+         <label id="radio-button 2">
+        <input id="story" type="radio" name="reason"  value="story" class="inline"/>Story-line
+        </label>
+        <label id="radio-button 3">
+        <input id="animation" type="radio" name="reason" value="animation" class="inline" />Animation
+        </label>
+        <label id="genres">What type of anime  genres you love to watch?</label>
+        <label id="checkbox 1">
+          <input id="Shonen"  type="checkbox" required name="genres" class="inline" value="1" /> Shonen
+          </label>
+          <label id="checkbox 2">
+            <input id="Shoujo" type="checkbox" required name="genres" class="inline" value="2"/> Shoujo
+            </label>
+            <label id="checkbox 3">
+            <input id="Slice of life" type="checkbox" required  name="genres"
+     class="inline" value="3" /> Slice of life
+            </label>
+            <label id="checkbox 4">
+            <input id="Seinen" type="checkbox" required name="genres" class="inline" value="4"/> Seinen
+            </label>
+            <label id="checkbox 5">
+            <input id="Josei" value="5" type="checkbox" required name="genres" class="inline"/> Josei
+            </label>
+            <label id="checkbox 6">
+            <input id="Romance" type="checkbox" required name="genres" class="inline" value="6"/> Romance
+            </label>
+            <label id="checkbox 7">
+            <input id="Fantasy" type="checkbox" required name="genres" class="inline" value="7"/> Fantasy
+            </label>
+            <label id="checkbox 8">
+            <input id="Mecha" type="checkbox" required name="genres" class="inline" value="8"/> Mecha
+            </label>
+            <label id="checkbox 9">
+            <input id="Harem" type="checkbox" required name="genres" class="inline" value="9"/> Harem
+            </label>
+            <label id="checkbox 10">
+            <input id="Comedy" type="checkbox" required name="genres" class="inline" value="10"/> Comedy
+            </label>
+            <label id="checkbox 11">
+            <input id="Psychology" type="checkbox" required name="genres" class="inline" value="11"/> Psychology
+            </label>
+            <label id="checkbox 12">
+            <input id="Thriller" type="checkbox" required name="genres" class="inline" value="12"/> Thriller
+            </label>
+            <label id="checkbox 13">
+            <input id="Mystery" type="checkbox" required name="genres" class="inline" value="13"/> Mystery
+            </label>
+    </fieldset>
+    <fieldset>
+<label for="bio"> Feel free to tell us about your favourite anime:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I love to watch anime..."></textarea>
+        </label>
+    </fieldset>
+    <fieldset>
+<input id="submit" type="submit" value="Submit" />
+    </fieldset>
+
+<!-- TODO: change the value attributes of checkbox input to the respective type -->
+            
+  </form>
+  </body>
+</html>
